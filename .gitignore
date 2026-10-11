@@ -1,0 +1,13 @@
+# Credentials — never commit these
+.env
+*.env
+!.env.example
+
+# Runtime session state (cookie jars, tokens)
+*.jar.txt
+fastweb_jar.txt
+*.jar
+*.cookie
+
+# Logs
+*.log

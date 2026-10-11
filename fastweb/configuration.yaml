@@ -1,0 +1,11 @@
+#Your configuration
+
+command_line:
+  - sensor:
+      name: "Fastweb Power Realtime"
+      unique_id: fastweb_power_realtime
+      command: "/config/scripts/fastweb/fastweb_power.sh"
+      unit_of_measurement: "W"
+      device_class: power
+      state_class: measurement
+      scan_interval: 300
